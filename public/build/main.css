@@ -50,5 +50,6 @@ a {
   text-decoration: none;
   color: #fff; }
 
-.c {
-  color: #2d5235; }
+.header {
+  margin-top: 15vh;
+  border: 1px solid black; }
