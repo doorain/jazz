@@ -3,13 +3,18 @@ button, input[type="button"], input[type="submit"] {
   border: none;
 }
 
+
 $green: #2d5235;
 $yellow: #f89f1f;
-$purple: #0d223f;
+$blue: #0d223f;
 
+$fontStyle1: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 $fontSize1: .5rem;
-$fontSize2: 1rem;
-$fontSize3: 1.5rem;
-$fontSize4: 2rem;
-$fontSize5: 2.5rem;
+$fontSize2: 18px;
+$fontSize3: 1.25rem;
+$fontSize4: 1.5rem;
+$fontSize5: 1.75rem;
+$fontSize6: 2rem;
+$fontSize7: 2.25rem;
+$fontSize8: 2.5rem;

@@ -1,4 +1,60 @@
-<div class="border">
-  directive
+<section class="navBar-wrapper">
+  <div class="main-container">
+
+    <div class="logo-wrapper">
+      <img class="logo"src="http://i.cdn.turner.com/drp/nba/jazz/sites/default/files/styles/logo/public/jaz1516_website_header_logo.png?itok=YNt60lGj" alt="">
+    </div>
+
+    <div class="menu-wrapper">
+      <div class="menu-text">
+        <div class="menu-li menu-items">Tickets</div>
+        <div class="menu-li menu-items">Schedule</div>
+        <div class="menu-li menu-items">Team</div>
+        <div class="menu-li menu-items">Fans</div>
+        <div class="menu-li menu-items">Video</div>
+        <div class="menu-li gameNight">Game Night</div>
+        <div class="menu-li community">Community</div>
+        <div class="menu-li shop">Shop</div>
+        <div class="menu-li menu-items more">More</div>
+      </div>
+
+    </div>
+
+    <div class="social-wrapper">
+      <a href="https://www.facebook.com/utahjazz"><img class="icon"src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt=""></a>
+      <a href="https://twitter.com/utahjazz"><img class="icon"src="http://www.chestersu.com/wp-content/uploads/2013/06/Twitter-icon.png-300x300.png" alt=""></a>
+      <a href="https://www.instagram.com/utahjazz/"><img class="icon"src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" alt=""></a>
+      <img class="icon"src="http://test.atpik.com/themes/default/images/home/search_icon.png" alt=""></a>
+    </div>
+    <div class='menu-btn-box'>
+      <button ng-click="toggleMenu()" class="menu-btn">
+        <div class="" id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+
+
+
+  </div>
+</section>
+
+<div class="grey menu fade" ng-show="menuShowing" >
+
+    <ul class="menu-items-list" >
+    <a href='' ng-click="toggleMenu()"><li>Tickets</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Schedule</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Team</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Fans</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Video</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Game Night</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Community</li></a></br>
+    <a href='' ng-click="toggleMenu()"><li>Shop</li></a></br>
+
+  </ul>
+
 
 </div>
