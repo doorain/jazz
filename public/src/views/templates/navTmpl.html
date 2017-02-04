@@ -5,17 +5,37 @@
       <img class="logo"src="http://i.cdn.turner.com/drp/nba/jazz/sites/default/files/styles/logo/public/jaz1516_website_header_logo.png?itok=YNt60lGj" alt="">
     </div>
 
-    <div class="menu-wrapper">
+    <div class="menu-wrapper ">
       <div class="menu-text">
-        <div class="menu-li menu-items"><a href='http://www.nba.com/jazz/tickets'>Tickets</a></div>
-        <div class="menu-li menu-items"><a href='http://www.nba.com/jazz/schedule'>Schedule</a></div>
-        <div class="menu-li menu-items"><a href='http://www.nba.com/jazz/roster/grid'>Team</a></div>
-        <div class="menu-li menu-items"><a href='http://www.nba.com/jazz/connect'>Fans</a></div>
-        <div class="menu-li menu-items"><a href='http://www.nba.com/jazz/video/'>Video</a></div>
-        <div class="menu-li gameNight"><a href='http://www.nba.com/jazz/gamenight'>Game Night</a></div>
-        <div class="menu-li community"><a href='http://www.nba.com/jazz/community'>Community</a></div>
-        <div class="menu-li shop"><a href='https://www.utahjazzstore.com/'>Shop</div>
-        <div class="menu-li menu-items more">More</div>
+
+        <div class="dropdown">
+          <div class="dropbtn menu-li  menu-items"><a href='http://www.nba.com/jazz/tickets'>Tickets</a></div>
+<!-- //////////////put list items here/////////////////////// -->
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn menu-items"><a href='http://www.nba.com/jazz/schedule'>Schedule</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn menu-items"><a href='http://www.nba.com/jazz/roster/grid'>Team</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn menu-items"><a href='http://www.nba.com/jazz/connect'>Fans</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn menu-items"><a href='http://www.nba.com/jazz/video/'>Video</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn gameNight"><a href='http://www.nba.com/jazz/gamenight'>Game Night</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn community"><a href='http://www.nba.com/jazz/community'>Community</a></div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn shop"><a href='https://www.utahjazzstore.com/'>Shop</div>
+        </div>
+        <div class="dropdown">
+          <div class="menu-li dropbtn menu-items more">More</div>
+        </div>
       </div>
 
     </div>
@@ -45,14 +65,14 @@
 <div class="grey menu fade" ng-show="menuShowing" >
 
     <ul class="menu-items-list" >
-    <a href='http://www.nba.com/jazz/tickets' ng-click="toggleMenu()"><li>Tickets</li></a></br>
-    <a href='http://www.nba.com/jazz/schedule' ng-click="toggleMenu()"><li>Schedule</li></a></br>
-    <a href='http://www.nba.com/jazz/roster/grid' ng-click="toggleMenu()"><li>Team</li></a></br>
-    <a href='http://www.nba.com/jazz/connect' ng-click="toggleMenu()"><li>Fans</li></a></br>
-    <a href='http://www.nba.com/jazz/video/' ng-click="toggleMenu()"><li>Video</li></a></br>
-    <a href='http://www.nba.com/jazz/gamenight' ng-click="toggleMenu()"><li>Game Night</li></a></br>
-    <a href='http://www.nba.com/jazz/community' ng-click="toggleMenu()"><li>Community</li></a></br>
-    <a href='https://www.utahjazzstore.com/' ng-click="toggleMenu()"><li>Shop</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/tickets' ng-click="toggleMenu()"><li>Tickets</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/schedule' ng-click="toggleMenu()"><li>Schedule</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/roster/grid' ng-click="toggleMenu()"><li>Team</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/connect' ng-click="toggleMenu()"><li>Fans</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/video/' ng-click="toggleMenu()"><li>Video</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/gamenight' ng-click="toggleMenu()"><li>Game Night</li></a></br>
+    <a class="menu-list"href='http://www.nba.com/jazz/community' ng-click="toggleMenu()"><li>Community</li></a></br>
+    <a class="menu-list"href='https://www.utahjazzstore.com/' ng-click="toggleMenu()"><li>Shop</li></a></br>
 
   </ul>
 
