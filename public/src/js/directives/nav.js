@@ -8,7 +8,7 @@ $(document).ready(function(){
   $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
   });
-}); 
+});
 
 
 
@@ -50,7 +50,7 @@ $scope.showLogin = function () {
     return {
       restrict: 'AE',
       controller: controller,
-      templateUrl: '../src/views/templates/navTmpl.html'
+      templateUrl: './public/src/views/templates/navTmpl.html'
     }
 
 

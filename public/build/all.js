@@ -5,7 +5,7 @@ angular.module('jazz', ['ui.router', 'ngAnimate', 'ngTouch']).config(function ($
   $stateProvider.state('premium', {
     url: "/",
     controller: 'premiumCtrl',
-    templateUrl: '../src/views/premium.html'
+    templateUrl: './public/src/views/premium.html'
   });
 });
 
@@ -74,7 +74,7 @@ angular.module('jazz').directive('navDirective', function () {
   return {
     restrict: 'AE',
     controller: controller,
-    templateUrl: '../src/views/templates/navTmpl.html'
+    templateUrl: './public/src/views/templates/navTmpl.html'
   };
 });
 //# sourceMappingURL=all.js.map

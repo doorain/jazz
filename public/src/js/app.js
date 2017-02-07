@@ -5,7 +5,7 @@ angular.module('jazz', ['ui.router', 'ngAnimate', 'ngTouch'])
     .state('premium', {
       url: "/" ,
       controller:  'premiumCtrl',
-      templateUrl: '../src/views/premium.html'
+      templateUrl: './public/src/views/premium.html'
     })
 
 })
