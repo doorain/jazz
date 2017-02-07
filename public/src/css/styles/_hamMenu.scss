@@ -78,7 +78,7 @@ outline: none;
 font-size: 1.3rem;
 }
 .menu {
-  margin-top: 12vh;
+  margin-top: 13vh;
 display: flex;
 justify-content: center;
 // align-items: center;
@@ -101,18 +101,18 @@ z-index: 138;
 
 }
 
-.fade.ng-enter {
+.fader.ng-enter {
 transition:.2s linear all;
 opacity:0;
 }
-.fade.ng-enter.ng-enter-active {
+.fader.ng-enter.ng-enter-active {
 opacity:1;
 }
-.fade.ng-leave {
+.fader.ng-leave {
 transition:.2s linear all;
 opacity:1;
 }
-.fade.ng-leave.ng-leave-active {
+.fader.ng-leave.ng-leave-active {
 opacity:0;
 }
 // .menu-items-list.menu-open-add {

@@ -16,7 +16,7 @@ angular.module('jazz').controller('premiumCtrl', function ($scope, mainService) 
   // $scope.test = ' hello from ctrl';
 
   $(document).ready(function () {
-    $('.fade').slick({
+    $('.single').slick({
       autoplay: true,
       dots: false,
       infinite: true,

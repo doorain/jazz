@@ -1,7 +1,6 @@
 {
   "name": "jazz",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,9 +35,11 @@
     "nodemailer": "^2.6.4",
     "request": "^2.75.0",
     "satellizer": "^0.15.5",
+    "slick-carousel": "^1.6.0",
     "twilio": "^2.11.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
-  }
+  },
+  "description": ""
 }
