@@ -1,10 +1,13 @@
 .navBar-wrapper{
+  position: fixed;
+  width:100%;
   background-color: $blue;
   // background-image: url("http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_WebSite_Header_(1900x108).jpg") repeat-x scroll center top rgba(0,0,0,0) ! important;
   min-height: 90px;
   display: flex;
   justify-content: center;
   font-family: $fontStyle1;
+  z-index: 100
 
 }
 .main-container{
@@ -17,7 +20,7 @@
   padding: 1vh 0vw 1vh 0vw;
 }
 .logo{
-  height: 100%
+  height: 80%;
 }
 .menu-wrapper{
   align-self: flex-end;
@@ -25,17 +28,17 @@
 }
 .presented{
   margin-bottom: 30px;
-  margin-left: 35px;
 }
 .site{
   font-size: 11px;
   color: $yellow;
 }
 .dlm{
-  margin-left: 60px;
+  margin-left: 30px;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 1px #f89f1f
+  text-shadow: 1px 1px #f89f1f;
+  font-size: 13px;
 }
 .menu-text{
   display: flex;
@@ -82,7 +85,6 @@
     // width: 60vw;
     max-height: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content a {
