@@ -66,12 +66,19 @@ font-family: $fontStyle1;
   list-style: initial;
   font-size: 14px;
   font-family: 'Ropa Sans', sans-serif;
+  font-weight: normal;
   margin-left: 35px;
 }
 footer{
   background-color: $blue;
   height: 10vh;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content{
+  text-align: center;
+  color: white;
 }
 @media (min-width: 768px){
   .main-page-container {
@@ -112,5 +119,10 @@ footer{
 @media (min-width: 1200px){
   .image-size{
     height: 45vh;
+  }
+}
+@media (min-width: 1480px){
+  .image-size{
+    height: 55vh;
   }
 }
