@@ -1,9 +1,10 @@
 .main-page-wrapper{
-font-family: $fontStyle1
+font-family: $fontStyle1;
 }
 
 .main-page-container{
   padding-top: 10vh;
+
   // position: fixed;
 }
 .option-wrapper{
@@ -16,12 +17,26 @@ font-family: $fontStyle1
   display: flex;
   justify-content: space-around;;
   align-items: center;
+  border-bottom: 1px solid grey;
 }
 .lexus-logo{
   height: 4vh;
 }
 .options{
   color: $yellow;
+}
+.body-wrapper{
+  // width: 75%;
+  text-align: center;
+  margin-top: 36px;
+
+}
+.body-container{
+padding-top: 10px;
+}
+.image-size{
+  height: 25vh;
+  align-items: center;
 }
 
 // .parallax-container{
